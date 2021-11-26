@@ -7,6 +7,10 @@ cópia de duas colunas de uma planilha: a primeira contendo a potência e a segu
 circuito (um circuito em cada linha). A saída é produzida num formato similar, o que permite transplantá-la 
 rapidamente para a planilha original
 
+O usuário pode escolher o número de fases do quadro, amplitude máxima desejada (diferença entre a maior e a menor
+porcentagem das fases) e o número de iterações para aumentar a amplitude (na maioria dos quadros, é impossível
+fazer uma distribuição perfeita, então a amplitude deve ser aumentada para evitar loops infinitos).
+
 ![1](https://user-images.githubusercontent.com/95099627/143619838-80167a36-1de3-4aac-91b5-2a35180e531d.JPG)
 Planilha
 
@@ -17,4 +21,4 @@ Arquivo de Entrada
 Arquivo de Saída
 
 ![4](https://user-images.githubusercontent.com/95099627/143619841-316b6761-12fc-4db6-a89f-697a0aa1e491.JPG)
-Planilha Final
+Planilha Final - As fases ficaram balanceadas com cerca de 33% de carga cada.
